@@ -44,6 +44,13 @@ public class GuiRadio extends GuiScreen {
 	public static final RadioObject bigfm = new RadioObject("BigFM", "http://srv04.bigstreams.de/bigfm-mp3-96");
 	public static final RadioObject dasding = new RadioObject("DasDing",
 			"https://swr-dasding-live.sslcast.addradio.de/swr/dasding/live/mp3/128/stream.mp3");
+	public static final RadioObject bigfm = new RadioObject("Alles Radio", "http://stream.laut.fm/alles-radio");
+	public static final RadioObject bigfm = new RadioObject("Alles Chill", "http://stream.laut.fm/alles-chill");
+	public static final RadioObject bigfm = new RadioObject("Alles Dance", "http://stream.laut.fm/alles-dance");
+	public static final RadioObject bigfm = new RadioObject("Alles Techno", "http://stream.laut.fm/alles-techno");
+	public static final RadioObject bigfm = new RadioObject("Alles Hardstyle", "http://stream.laut.fm/alles-hardstyle");
+	public static final RadioObject bigfm = new RadioObject("Alles Klub", "http://stream.laut.fm/alles-klub");
+
 
 	static {
 		radio.add(ilr);
